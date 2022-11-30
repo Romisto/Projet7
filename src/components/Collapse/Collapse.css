@@ -1,0 +1,51 @@
+.Collapses {
+  align-items: flex-start;
+}
+
+.Collapse-visible {
+  background: #ff6060;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  color: #ffffff;
+  align-items: center;
+  padding: 10px 15px;
+}
+
+.chevronUp {
+  width: 20px;
+  transform: rotate(0deg);
+}
+
+.chevronDown {
+  width: 20px;
+  transform: rotate(180deg);
+}
+
+.Collapse-visible h1 {
+  font-size: 20px;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+}
+
+.Collapse-toggle {
+  font-size: 20px;
+  opacity: 0;
+  background: #f6f6f6;
+  transition: opacity 0.2s ease-in-out, height 0.1s 0.1s ease-in-out;
+  height: 0px;
+  visibility: hidden;
+  border-radius: 10px;
+}
+
+.Animation {
+  opacity: 1;
+  transition: height 0.2s ease-in-out, opacity 0.1s 0.1s ease-in-out;
+  height: auto;
+  visibility: visible;
+  padding: 20px;
+}
+
+.Collapse-toggle p {
+  font-family: Montserrat, sans-serif;
+}

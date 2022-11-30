@@ -1,0 +1,45 @@
+.ContainerBanner {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  .Content {
+    position: relative;
+    width: 95%;
+  }
+  .titleBanner {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    color: white;
+    z-index: 2;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .Image {
+    height: 223px;
+    width: 95%;
+    border-radius: 10px;
+    filter: brightness(70%);
+    z-index: -2;
+    object-fit: cover;
+  }
+  
+  @media only screen and (max-width: 455px) {
+    .titleBanner {
+      font-size: 24px;
+      text-align: left;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+  

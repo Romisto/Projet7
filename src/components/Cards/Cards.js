@@ -1,8 +1,8 @@
 import React from "react";
 import "./Cards.css";
-import LocationData from "../LogementData/Logement.json";
+import LocationData from "../LogeData/Logement.json";
 
-//Creation of each accomodation card
+//Création de chaque carte d'hébergement
 
 export default function Cards() {
   return (

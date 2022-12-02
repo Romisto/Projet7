@@ -1,7 +1,7 @@
 import React from "react";
 import "./Banner.css";
 
-//Banner creation
+//création de Banner
 
 export default function Banner(props) {
   return (

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../LogementData/Logement.json";
+import "../LogeData/Logement.json";
 import "./Carrousel.css";
 import ChevronLeft from "../../Images/chevronLeft.svg";
 import ChevronRight from "../../Images/chevronRight.svg";

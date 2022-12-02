@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import "../Header/Header.css";
 import "./NavBar.css";
 
-// Navigation bar creation
+// création de la barre de navigation
 
 export default function NavBar() {
   return (

@@ -12,8 +12,16 @@
   margin-bottom: 100px;
 }
 
+.bannerMobile {
+  display: none;
+}
+
+@media only screen and (max-width: 450px) {
+  .bannerMobile {
+    display: block;
+  }
 
   .bannerDesktop {
     display: none;
   }
-
+}

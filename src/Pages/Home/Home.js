@@ -6,7 +6,7 @@ import Footer from "../../components/Footer/Footer";
 import "./Home.css";
 import BannerImage from "../../Images/BannerBackground.png";
 
-// creation de la page accueil
+// Home page creation
 
 export default function Home() {
   return (

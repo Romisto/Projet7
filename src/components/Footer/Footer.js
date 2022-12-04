@@ -2,7 +2,7 @@ import React from "react";
 import "./Footer.css";
 import Logo from "../../Images/Logo-Footer.png";
 
-//Footer creation
+//création du footer
 
 export default function Footer() {
   return (

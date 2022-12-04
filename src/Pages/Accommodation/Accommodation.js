@@ -11,6 +11,21 @@ import ErrorPage from "../Error404/Error404";
 import starsPink from "../../Images/starsRose.svg";
 import starsGrey from "../../Images/starsGrey.svg";
 
+import style from "styled-components";
+
+const CollapseStyleLocation = style.div`
+  width: 85%;
+  height: auto;
+  margin: 30px auto 0;
+  text-align: left;
+  @media only screen and (max-width: 1024px) {
+    width: 90%;
+  }
+
+  @media only screen and (min-width: 375px) and (max-width: 424px) {
+    width: 100%;
+  }
+`;
 
 export default function Accommodation() {
   // Slot ID retrieval
@@ -130,5 +145,5 @@ export default function Accommodation() {
       </div>
       <Footer />
     </div>
-  );
-}
+    );
+  }

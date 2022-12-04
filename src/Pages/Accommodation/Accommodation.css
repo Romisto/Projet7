@@ -97,3 +97,93 @@
   margin-top: 10px;
 }
 
+@media only screen and (max-width: 1024px) {
+  .TitreLogement {
+    font-size: 25px;
+  }
+
+  .stars {
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media only screen and (max-width: 1240px) {
+  .contenuContainer {
+    flex-direction: column;
+
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+
+  .host {
+    justify-content: flex-end;
+  }
+
+  .rating {
+    text-align: left;
+    margin-top: 0;
+  }
+
+  .containerHostRating {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+  .containerTitreLocationTags {
+    margin-bottom: 20px;
+  }
+
+  .stars {
+    height: 25px;
+    width: 25px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .contenuContainer {
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .contenuContainer {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+}
+
+@media only screen and (max-width: 455px) {
+  .contenuContainer {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  .TitreLogement {
+    font-size: 18px;
+  }
+
+  .Collapses {
+    margin-bottom: 150px;
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .host p {
+    font-size: 12px;
+  }
+
+  .host img {
+    width: 32px;
+  }
+
+  .stars {
+    height: 15px;
+    width: 15px;
+  }
+}

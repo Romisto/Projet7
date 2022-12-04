@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Collapse.css";
 import chevronUp from "../../Images/Fleche.svg";
 
-//Collapse creation
+//création du collapse
 
 export default function Collapse(props) {
   const [toggle, setToggle] = useState(false);

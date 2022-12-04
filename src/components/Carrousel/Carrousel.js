@@ -3,7 +3,7 @@ import "../LogeData/Logement.json";
 import "./Carrousel.css";
 import ChevronLeft from "../../Images/chevronLeft.svg";
 import ChevronRight from "../../Images/chevronRight.svg";
-//Carrousel creation
+//création du carrousel
 
 export default function Carrousel({ slides }) {
   const [currentImage, setCurrentImage] = useState(0);

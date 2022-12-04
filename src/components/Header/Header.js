@@ -1,5 +1,5 @@
 import React from "react";
-import NavBar from "../NavigationBar/NavBar";
+import NavBar from "../NavBar/NavBar";
 import "./Header.css";
 import Logo from "../../Images/Logo.png";
 

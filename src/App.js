@@ -1,8 +1,7 @@
-import './App.css';
-import React from 'react';
-import { BrowserRouter, Routes, Route} from 'react-router-dom'
+import "./App.css";
+import { Routes, Route } from "react-router-dom";
 import Home from "./Pages/Home/Home";
-import About from "./Pages/About/About";
+import About from "./Pages/About/About/About";
 import Erreur from "./Pages/Error404/Error404";
 import Accommodation from "./Pages/Accommodation/Accommodation";
 

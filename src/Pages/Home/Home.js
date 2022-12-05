@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 import Banner from "../../components/Banner/Banner";
 import Header from "../../components/Header/Header";
 import Cards from "../../components/Cards/Cards";
@@ -6,11 +6,10 @@ import Footer from "../../components/Footer/Footer";
 import "./Home.css";
 import BannerImage from "../../Images/BannerBackground.png";
 
-// Home page creation
-
-export default function Home() {
+const Home = () => {
   return (
-    <div className="Home">
+    
+      <div className="Home">
       <Header />
 
       <div className="imagebanner">
@@ -21,4 +20,8 @@ export default function Home() {
       <Footer />
     </div>
   );
-}
+};
+
+export default Home;
+
+

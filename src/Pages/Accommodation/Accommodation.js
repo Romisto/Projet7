@@ -32,7 +32,7 @@ export default function Accommodation() {
 
   const ID = useParams();
 
-  console.log(ID);
+  //console.log(ID);
 
   // The ID retrieve with useParams needs to match with the accommodation ID.
 

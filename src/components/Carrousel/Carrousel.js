@@ -5,7 +5,7 @@ import ChevronLeft from "../../Images/chevronLeft.svg";
 import ChevronRight from "../../Images/chevronRight.svg";
 //création du carrousel
 
-export default function Carrousel({ slides }) {
+function Carrousel({ slides }) {
   const [currentImage, setCurrentImage] = useState(0);
 
   const totalImages = slides.length;
@@ -59,3 +59,5 @@ export default function Carrousel({ slides }) {
     </div>
   );
 }
+
+export default Carrousel

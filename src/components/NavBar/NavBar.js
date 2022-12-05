@@ -5,7 +5,7 @@ import "./NavBar.css";
 
 // création de la barre de navigation
 
-export default function NavBar() {
+function NavBar () {
   return (
     <nav>
       <NavLink
@@ -27,4 +27,5 @@ export default function NavBar() {
       </NavLink>
     </nav>
   );
-}
+};
+export default NavBar

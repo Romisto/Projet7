@@ -4,7 +4,7 @@ import chevronUp from "../../Images/Fleche.svg";
 
 //création du collapse
 
-export default function Collapse(props) {
+function Collapse(props) {
   const [toggle, setToggle] = useState(false);
 
   const toggleState = () => {
@@ -32,3 +32,4 @@ export default function Collapse(props) {
     </div>
   );
 }
+export default Collapse

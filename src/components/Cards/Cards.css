@@ -7,7 +7,7 @@
 .Background {
   border-radius: 25px;
   background-color: #e3e3e3;
-  width: 80%;
+  width: 90%;
   gap: 20px;
   display: flex;
   flex-wrap: wrap;
@@ -25,16 +25,16 @@
   position: relative;
   border-radius: 10px;
   overflow: hidden;
-  width: 340px;
-  height: 340px;
+  width: 440px;
+  height: 440px;
 }
 
 .box-content {
   position: absolute;
   top: 0;
   left: 0;
-  width: 340px;
-  height: 340px;
+  width: 440px;
+  height: 440px;
   background: rgb(0, 0, 0);
   background: linear-gradient(
     180deg,
@@ -47,8 +47,8 @@
   padding: 10px;
 }
 .Cover {
-  width: 340px;
-  height: 340px;
+  width: 440px;
+  height: 440px;
   display: block;
   object-fit: cover;
 }

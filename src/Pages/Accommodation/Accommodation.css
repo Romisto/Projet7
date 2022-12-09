@@ -81,11 +81,12 @@
 }
 
 .Collapses {
+  width: 85%;
   margin-bottom: 150px;
   grid-template-columns: repeat(2, 1fr);
   display: grid;
-  margin-left: 50px;
-  margin-right: 50px;
+  grid-gap:50px;
+
 }
 
 .collapsesContainer {
@@ -153,6 +154,12 @@
     margin-left: 40px;
     margin-right: 40px;
   }
+  .Collapses {
+    width: 90%;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(auto-fill,100%);
+  }
 }
 
 @media only screen and (max-width: 455px) {
@@ -165,14 +172,7 @@
     font-size: 18px;
   }
 
-  .Collapses {
-    margin-bottom: 150px;
-
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
-    margin-right: 20px;
-  }
+  
 
   .host p {
     font-size: 12px;

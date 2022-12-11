@@ -18,38 +18,37 @@ const CollapseStyleLocation = style.div`
 `;
 
 export default function Accommodation() {
-  // Slot ID retrieval
+  // Recupération de l'ID par useParams
 
   const ID = useParams();
 
-  //console.log(ID);
 
-  // The ID retrieve with useParams needs to match with the accommodation ID.
+  // L'ID récupéré avec useParams doit correspondre à l'ID de l'hébergement.
 
   const findLogement = LogementFile.find(
     (theAccomodation) => theAccomodation.id === ID.id
   );
 
-  //if the ID no match, redirect to error page.
+  //Si l'ID ne correspond pas, rediriger vers la page d'erreur.
 
   if (!findLogement) {
     return <ErrorPage />;
   }
 
-  // const theTags declaration
+  // déclaration de la const theTags 
 
   const theTags = findLogement.tags;
 
-  // const theEquipements declaration
+  // déclaration const theEquipements 
 
   const theEquipements = findLogement.equipments;
 
 
-  //Map for each equipement
+  //Carte pour chaque équipement
 
-  // const creation for stars svg
+  // création de const pour les étoiles
 
-  // for loop, for push the good pink and grey stars
+  // pour la boucle, push les bonnes étoiles roses et grises
 
   const stars = findLogement.rating;
 

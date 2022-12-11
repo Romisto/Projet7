@@ -12,15 +12,10 @@ import styled from "styled-components";
 // styled component collapse
 
 const CollapseStyle = styled.div`
-  width: 70%;
-  height: auto;
-  margin: 30px auto 0;
-  @media only screen and (max-width: 768px) {
-    width: 85%;
-  }
+  
 `;
 
-// About page creation
+// création de la page About
 
 export default function About() {
   return (
@@ -34,6 +29,7 @@ export default function About() {
         <Banner img={ImageMobile} />{" "}
       </div>
       <div className="Container">
+      <div className="CollapsesAbout">
         <CollapseStyle>
           <Collapse
             title="Fiabilité"
@@ -41,7 +37,7 @@ export default function About() {
           Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes."
           />{" "}
         </CollapseStyle>
-
+              
         <CollapseStyle>
           <Collapse
             title="Respect"
@@ -49,7 +45,7 @@ export default function About() {
           Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme."
           />
         </CollapseStyle>
-
+                   
         <CollapseStyle>
           <Collapse
             title="Service"
@@ -57,7 +53,7 @@ export default function About() {
            N'hésitez pas à nous contacter si vous avez la moindre question."
           />
         </CollapseStyle>
-
+                     
         <CollapseStyle>
           <Collapse
             title="Sécurité"
@@ -66,6 +62,8 @@ export default function About() {
           En laissant une note aussi bien à l'hôte qu'au locataire, cela permet à nos équipes de vérifier que les standards sont bien respectés. Nous organisons également des ateliers sur la sécurité domestique pour nos hôtes."
           />
         </CollapseStyle>
+        </div>
+       
       </div>
       <Footer />
     </div>

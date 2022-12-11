@@ -3,18 +3,43 @@
   padding: 0;
 }
 
+
 .Container {
+  width: 100%;
+  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   align-content: center;
   margin-bottom: 100px;
+ 
 }
+
 
 .bannerMobile {
   display: none;
 }
+
+
+.CollapsesAbout {
+  width: 85%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,100%);
+  grid-gap: 30px;
+  
+}
+
+@media only screen and (max-width: 768px) {
+  .CollapsesAbout {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,100%);
+    grid-gap: 30px;
+    
+  }
+}
+
 
 @media only screen and (max-width: 450px) {
   .bannerMobile {

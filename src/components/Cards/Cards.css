@@ -2,13 +2,14 @@
   display: flex;
   justify-content: center;
   margin-top: 15px;
+  width: 90%;
 }
 
 .Background {
   border-radius: 25px;
   background-color: #e3e3e3;
   width: 90%;
-  gap: 20px;
+  gap: 50px;
   display: flex;
   flex-wrap: wrap;
   object-fit: cover;
@@ -25,16 +26,16 @@
   position: relative;
   border-radius: 10px;
   overflow: hidden;
-  width: 440px;
-  height: 440px;
+  width: 340px;
+  height: 340px;
 }
 
 .box-content {
   position: absolute;
   top: 0;
   left: 0;
-  width: 440px;
-  height: 440px;
+  width: 340px;
+  height: 340px;
   background: rgb(0, 0, 0);
   background: linear-gradient(
     180deg,
@@ -47,8 +48,8 @@
   padding: 10px;
 }
 .Cover {
-  width: 440px;
-  height: 440px;
+  width: 340px;
+  height: 340px;
   display: block;
   object-fit: cover;
 }

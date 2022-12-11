@@ -26,16 +26,16 @@
   position: relative;
   border-radius: 10px;
   overflow: hidden;
-  width: 340px;
-  height: 340px;
+  width: 4O0px;
+  height: 400px;
 }
 
 .box-content {
   position: absolute;
   top: 0;
   left: 0;
-  width: 340px;
-  height: 340px;
+  width: 400px;
+  height: 400px;
   background: rgb(0, 0, 0);
   background: linear-gradient(
     180deg,
@@ -48,8 +48,8 @@
   padding: 10px;
 }
 .Cover {
-  width: 340px;
-  height: 340px;
+  width: 400px;
+  height: 400px;
   display: block;
   object-fit: cover;
 }

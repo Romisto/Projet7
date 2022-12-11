@@ -25,7 +25,7 @@ function Collapse(props) {
         />
       </div>
       <div className={toggle ? "Collapse-toggle Animation" : "Collapse-toggle"}>
-        <p style={{ color: "#FF6060", textAlign: "left" }}>
+        <p >
           {props.description}
         </p>
       </div>

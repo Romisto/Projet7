@@ -9,7 +9,7 @@ import BannerImage from "../../Images/BannerBackground.png";
 const Home = () => {
   return (
     
-      <div className="Home">
+    <div className="Home">
       <Header />
 
       <div className="imagebanner">

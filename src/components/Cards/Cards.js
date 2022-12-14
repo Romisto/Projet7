@@ -1,7 +1,7 @@
 import React from "react";
 import "./Cards.css";
 import LocationData from "../LogeData/Logement.json";
-import card from "../card/card";
+import Card from "../Card/Card";
 
 //Création de chaque carte d'hébergement
 
@@ -11,7 +11,10 @@ export default function Cards() {
       <div className="Background">
         {LocationData.map((Location) => {
           return (
-            card
+           
+                Card(Location.id, Location.title, Location.cover)  
+            
+           
           );
         })}
       </div>

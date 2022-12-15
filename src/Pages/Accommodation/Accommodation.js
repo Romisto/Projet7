@@ -1,8 +1,9 @@
-
+import React from 'react';
 import Header from "../../components/Header/Header";
+
 import {useParams } from "react-router-dom";
 import LogementFile from "../../components/LogeData/Logement.json";
-import "../../components/LogeData/Logement.json";
+
 import Collapse from "../../components/Collapse/Collapse";
 import Carrousel from "../../components/Carrousel/Carrousel";
 import Footer from "../../components/Footer/Footer";
@@ -11,17 +12,11 @@ import ErrorPage from "../Error404/Error404";
 import starsPink from "../../Images/starsRose.svg";
 import starsGrey from "../../Images/starsGrey.svg";
 
-import style from "styled-components";
-
-const CollapseStyleLocation = style.div`
-  
-`;
 
 export default function Accommodation() {
   // Recupération de l'ID par useParams
 
   const ID = useParams();
-
 
   // L'ID récupéré avec useParams doit correspondre à l'ID de l'hébergement.
 
@@ -111,24 +106,22 @@ export default function Accommodation() {
 
         <div className="collapsesContainer">
           <div className="Collapses">
-            <CollapseStyleLocation>
+          
               <Collapse
                 title="Description"
                 description={findLogement.description}
               />
-            </CollapseStyleLocation>
-
-            <CollapseStyleLocation>
+                    
               <Collapse
                 className="Equipement"
                 title="Equipements"
                 description={theEquipements.map((Equip) => (
-                  <li key={Equip} style={{ listStyle: "none" }}>
+                  <li key={Equip}>
                     {Equip}
                   </li>
                 ))}
               />
-            </CollapseStyleLocation>
+           
           </div>
         </div>
       </div>
